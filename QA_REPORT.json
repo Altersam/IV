@@ -1,207 +1,58 @@
 {
-  "checked_at": "2026-11-12T21:04:29.736979+03:00",
-  "scope": "Final local HTTP build and file:// alias; live GitHub Pages validation remains pending publication",
-  "published": false,
-  "base_head": "be2cd49",
+ "version": "v2 (Claude)",
+ "base_commit": "c8d60b046c743f84a507836acb279c5d5d965b1e",
+ "slides": 30,
+ "checked_at": "2026-11-12T20:03:20.243283+00:00",
+ "published": false,
+ "scope": "Local Chromium QA of the final HTML at real CSS pixels: 1920×1080, 1440×900, 1366×768, 390×844 and 360×800, plus the arrow-only flow. Phone emulation that inflated innerWidth was not used. Live publication pending.",
+ "html_sha256": {
+  "index.html": "58d8aa06b14960cbab4ea64ec9b994aa8ce2222709693fcf78cf5b43832aa195",
+  "standalone.html": "58d8aa06b14960cbab4ea64ec9b994aa8ce2222709693fcf78cf5b43832aa195",
+  "Новая_архитектура_профильного_образования.html": "58d8aa06b14960cbab4ea64ec9b994aa8ce2222709693fcf78cf5b43832aa195"
+ },
+ "viewports": {
+  "1920x1080": {
+   "console_errors": [],
+   "slides_with_issues": []
+  },
+  "1440x900": {
+   "console_errors": [],
+   "slides_with_issues": []
+  },
+  "1366x768": {
+   "console_errors": [],
+   "slides_with_issues": []
+  },
+  "390x844": {
+   "console_errors": [],
+   "slides_with_issues": []
+  },
+  "360x800": {
+   "console_errors": [],
+   "slides_with_issues": []
+  }
+ },
+ "checks": [
+  "заголовки в одну строку на desktop",
+  "текст внутри фигур",
+  "ничего под нижней панелью",
+  "нет горизонтальной прокрутки на мобильных",
+  "последний элемент мобильного слайда над панелью",
+  "изображения загружены и не растянуты",
+  "видео без ошибок"
+ ],
+ "arrow_flow": {
+  "failures": [],
   "slides": 30,
-  "browser": "Chromium 148.0.7778.96 via Playwright, headless, deviceScaleFactor=1",
-  "html_sha256": {
-    "index.html": "816c9429016e30382e38a3c9869f5dca93764296fb274b419e5e544c4716a735",
-    "standalone.html": "816c9429016e30382e38a3c9869f5dca93764296fb274b419e5e544c4716a735",
-    "Новая_архитектура_профильного_образования.html": "816c9429016e30382e38a3c9869f5dca93764296fb274b419e5e544c4716a735"
-  },
-  "layouts": [
-    {
-      "viewport": [
-        1440,
-        900
-      ],
-      "measured_inner_widths": [
-        1440
-      ],
-      "slides_checked": 30,
-      "max_scroll_width": 1440,
-      "horizontal_overflow_count": 0,
-      "text_box_overflows": 0,
-      "broken_images": 0,
-      "video_errors": 0,
-      "runtime_errors": [],
-      "http_errors": []
-    },
-    {
-      "viewport": [
-        1920,
-        1080
-      ],
-      "measured_inner_widths": [
-        1920
-      ],
-      "slides_checked": 30,
-      "max_scroll_width": 1920,
-      "horizontal_overflow_count": 0,
-      "text_box_overflows": 0,
-      "broken_images": 0,
-      "video_errors": 0,
-      "runtime_errors": [],
-      "http_errors": []
-    },
-    {
-      "viewport": [
-        390,
-        844
-      ],
-      "measured_inner_widths": [
-        390
-      ],
-      "slides_checked": 30,
-      "max_scroll_width": 390,
-      "horizontal_overflow_count": 0,
-      "text_box_overflows": 0,
-      "broken_images": 0,
-      "video_errors": 0,
-      "runtime_errors": [],
-      "http_errors": []
-    },
-    {
-      "viewport": [
-        360,
-        800
-      ],
-      "measured_inner_widths": [
-        360
-      ],
-      "slides_checked": 30,
-      "max_scroll_width": 360,
-      "horizontal_overflow_count": 0,
-      "text_box_overflows": 0,
-      "broken_images": 0,
-      "video_errors": 0,
-      "runtime_errors": [],
-      "http_errors": []
-    }
+  "reentry_video": [
+   3.0,
+   0.42
   ],
-  "mobile_scroll": {
-    "slides_checked": 60,
-    "last_text_accessible_above_footer": true,
-    "failures": []
-  },
-  "interactions": {
-    "keyboard_forward": true,
-    "home": true,
-    "end": true,
-    "pageup": true,
-    "overview_open": true,
-    "overview_select": true,
-    "classroom_transform": true,
-    "dialog_blocks_navigation": true,
-    "native_focus_trap": true,
-    "escape_and_focus_return": true,
-    "mobile_source_route": true,
-    "fullscreen_enter": true,
-    "fullscreen_button_state": "Выйти из полного экрана",
-    "fullscreen_exit": true,
-    "fullscreen_f_key": true,
-    "fullscreen_escape_exit": true,
-    "video_actually_advances": true,
-    "global_video_pause": true,
-    "hidden_videos_paused": true,
-    "one_video_at_most": true,
-    "room44_ended": true,
-    "room44_replay": true,
-    "room44_duration": 24.875,
-    "svg_draw_animation": {
-      "initial": "1558.46px",
-      "final": "0px",
-      "pass": true
-    },
-    "rapid_navigation": true,
-    "cross_profile_selection": true,
-    "concept_scenario_highlight": true,
-    "prototype_shared_centers": true,
-    "fullscreen_denial_handled": true,
-    "runtime_errors": [],
-    "reduced_motion_autoplay_off": true,
-    "reduced_motion_css": "0s",
-    "reduced_motion_manual_video": true,
-    "mobile_notes": true,
-    "mobile_scroll_reaches_speaker": true,
-    "mobile_final_exact_labels": true,
-    "mobile_prototype_vertical": true,
-    "blocked_autoplay_poster": true,
-    "offline_file_open": true,
-    "html_alias_sha256": {
-      "index.html": "816c9429016e30382e38a3c9869f5dca93764296fb274b419e5e544c4716a735",
-      "standalone.html": "816c9429016e30382e38a3c9869f5dca93764296fb274b419e5e544c4716a735",
-      "Новая_архитектура_профильного_образования.html": "816c9429016e30382e38a3c9869f5dca93764296fb274b419e5e544c4716a735"
-    }
-  },
-  "gallery": {
-    "images_loaded": true,
-    "console_errors": []
-  },
-  "media": {
-    "used_files": 31,
-    "total_bytes": 11696726,
-    "missing_files": [],
-    "videos": [
-      {
-        "file": "assets/video/learning.mp4",
-        "bytes": 594272,
-        "duration": "00:00:08.00",
-        "audio_track": false
-      },
-      {
-        "file": "assets/video/music.mp4",
-        "bytes": 825930,
-        "duration": "00:00:07.00",
-        "audio_track": false
-      },
-      {
-        "file": "assets/video/public-voice.mp4",
-        "bytes": 387302,
-        "duration": "00:00:07.00",
-        "audio_track": false
-      },
-      {
-        "file": "assets/video/open-world.mp4",
-        "bytes": 711332,
-        "duration": "00:00:08.00",
-        "audio_track": false
-      },
-      {
-        "file": "assets/video/vr-practice.mp4",
-        "bytes": 616919,
-        "duration": "00:00:07.00",
-        "audio_track": false
-      },
-      {
-        "file": "assets/video/room44-transform.mp4",
-        "bytes": 6297546,
-        "duration": "00:00:24.88",
-        "audio_track": false
-      }
-    ],
-    "max_simultaneously_playing": 1,
-    "room44_real_time_playthrough": {
-      "played_from_start": true,
-      "ended": true,
-      "error": false,
-      "duration_seconds": 24.875
-    }
-  },
-  "evidence": {
-    "desktop_previews": "previews/slide-01.jpg … slide-30.jpg",
-    "desktop_montage": "preview_montage.jpg",
-    "internal_full_viewports": "research/codex-qa/",
-    "internal_mobile_montages": [
-      "research/codex-qa/montage-390.jpg",
-      "research/codex-qa/montage-360.jpg"
-    ]
-  },
-  "limitations": [
-    "No live deployment has been made or verified in this stage.",
-    "Safari/iOS and real mobile hardware not tested; mobile viewport validation used Chromium 390 and 360 px.",
-    "Autoplay may be blocked by browser; poster and manual playback verified.",
-    "Standalone HTML requires its adjacent assets folder."
-  ]
+  "rapid_end": 25,
+  "fullscreen": true,
+  "fullscreen_after_esc": false,
+  "errors": [],
+  "assets/qr/social-engineering.png": "https://www.fa.ru/school/social_vr_game/",
+  "assets/qr/biology-concept.png": "https://altersam.github.io/Biology_VR/"
+ }
 }
