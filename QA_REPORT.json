@@ -1,0 +1,23 @@
+{
+  "total": 34,
+  "fail": [],
+  "errors": [],
+  "room": true,
+  "right": "8",
+  "left": "7",
+  "afterWheel": "7",
+  "arrowRight": "8",
+  "standalone": {
+    "images": 0,
+    "slides": 34
+  },
+  "galleryBad": 0,
+  "services": [
+    1,
+    1,
+    1,
+    1,
+    1,
+    1
+  ]
+}
