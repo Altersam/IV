@@ -1,0 +1,40 @@
+{
+  "html_sha256": {
+    "index.html": "816c9429016e30382e38a3c9869f5dca93764296fb274b419e5e544c4716a735",
+    "standalone.html": "816c9429016e30382e38a3c9869f5dca93764296fb274b419e5e544c4716a735",
+    "Новая_архитектура_профильного_образования.html": "816c9429016e30382e38a3c9869f5dca93764296fb274b419e5e544c4716a735"
+  },
+  "slides": 30,
+  "previews": [
+    "previews/slide-01.jpg",
+    "previews/slide-02.jpg",
+    "previews/slide-03.jpg",
+    "previews/slide-04.jpg",
+    "previews/slide-05.jpg",
+    "previews/slide-06.jpg",
+    "previews/slide-07.jpg",
+    "previews/slide-08.jpg",
+    "previews/slide-09.jpg",
+    "previews/slide-10.jpg",
+    "previews/slide-11.jpg",
+    "previews/slide-12.jpg",
+    "previews/slide-13.jpg",
+    "previews/slide-14.jpg",
+    "previews/slide-15.jpg",
+    "previews/slide-16.jpg",
+    "previews/slide-17.jpg",
+    "previews/slide-18.jpg",
+    "previews/slide-19.jpg",
+    "previews/slide-20.jpg",
+    "previews/slide-21.jpg",
+    "previews/slide-22.jpg",
+    "previews/slide-23.jpg",
+    "previews/slide-24.jpg",
+    "previews/slide-25.jpg",
+    "previews/slide-26.jpg",
+    "previews/slide-27.jpg",
+    "previews/slide-28.jpg",
+    "previews/slide-29.jpg",
+    "previews/slide-30.jpg"
+  ]
+}
