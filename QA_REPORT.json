@@ -1,118 +1,112 @@
 {
- "version": "v3 fresh content; preserved Claude visual system",
- "base_commit": "681c7ba30893c1775c3f6baa53c5de165c05018c",
- "slides": 34,
- "checked_at": "2026-11-13T12:05:29.413387+00:00",
- "published": false,
- "scope": "Final integrated local Chromium build: all 34 slides at real CSS 1920×1080, 1440×900, 390×844 and 360×800; arrow flow both ways, reduced motion, fullscreen, full new clips. Physical iOS/projector and deployment not tested.",
- "html_sha256": {
-  "index.html": "627b2abc2415e659a20c68d75a65b945569a4920802ac4d72b342a9c07c6470c",
-  "standalone.html": "627b2abc2415e659a20c68d75a65b945569a4920802ac4d72b342a9c07c6470c",
-  "Новая_архитектура_профильного_образования.html": "627b2abc2415e659a20c68d75a65b945569a4920802ac4d72b342a9c07c6470c"
- },
- "viewports": {
-  "1440x900": {
-   "console_errors": [],
-   "slides_with_issues": []
-  },
-  "1920x1080": {
-   "console_errors": [],
-   "slides_with_issues": []
-  },
-  "360x800": {
-   "console_errors": [],
-   "slides_with_issues": []
-  },
-  "390x844": {
-   "console_errors": [],
-   "slides_with_issues": []
-  }
- },
- "checks": [
-  "заголовки в одну строку на desktop",
-  "текст внутри фигур",
-  "ничего под нижней панелью",
-  "нет горизонтальной прокрутки на мобильных",
-  "последний элемент мобильного слайда над панелью",
-  "изображения загружены и не растянуты",
-  "видео без ошибок"
- ],
- "arrow_flow": {
-  "failures": [],
+  "version": "slide-specific revision 2026-11-13",
+  "html_sha256": "dd82358a7a99a8f0e9528c1ff6562b2478fda54cb9483666ec807412542901b0",
   "slides": 34,
-  "reentry_video": [
-   2.99,
-   0.4
-  ],
-  "rapid_end": 29,
-  "fullscreen": true,
-  "fullscreen_after_esc": false,
+  "local_scope": "Chromium; 1440x900,1920x1080,390x844,360x800; actual current build",
+  "geometry": {
+    "viewports": [
+      "1440x900",
+      "1920x1080",
+      "390x844",
+      "360x800"
+    ],
+    "desktop_single_line_headings": true,
+    "horizontal_document_overflow": [],
+    "raw_findings": "Three desktop slide5 puzzle tabs exceed li boxes by28px; visual review confirms intentional connector shapes, not text overflow. No other findings.",
+    "evidence": "research/slide-specific-qa/geometry-interactions.json"
+  },
+  "interactions": {
+    "slide6": "matrix(1, 0, 0, 1, -4, 11)",
+    "slide6_reentry": "matrix(1, 0, 0, 1, 0, 0)",
+    "arrows27": "flowTravel",
+    "arrows27_hidden": "none",
+    "qualityStates": [
+      [
+        "1",
+        "0",
+        "0"
+      ],
+      [
+        "0",
+        "1",
+        "0"
+      ],
+      [
+        "0",
+        "0",
+        "1"
+      ]
+    ],
+    "notesDialog": 1,
+    "fullscreen": true,
+    "reducedQuality": [
+      {
+        "opacity": "1",
+        "position": "static",
+        "height": 506
+      },
+      {
+        "opacity": "1",
+        "position": "static",
+        "height": 1177
+      },
+      {
+        "opacity": "1",
+        "position": "static",
+        "height": 804
+      }
+    ]
+  },
   "errors": [],
-  "assets/qr/social-engineering.png": "https://www.fa.ru/school/social_vr_game/",
-  "assets/qr/biology-concept.png": "https://altersam.github.io/Biology_VR/"
- },
- "full_new_playback": {
-  "failures": [],
-  "clips": [
-   {
-    "slide": 11,
-    "src": "assets/video/v3/live-business-english.mp4",
-    "duration": 12,
-    "ended": true,
-    "error": null
-   },
-   {
-    "slide": 13,
-    "src": "assets/video/v3/live-programming.mp4",
-    "duration": 14,
-    "ended": true,
-    "error": null
-   },
-   {
-    "slide": 19,
-    "src": "assets/video/v3/hall-led.mp4",
-    "duration": 8,
-    "ended": true,
-    "error": null
-   },
-   {
-    "slide": 21,
-    "src": "assets/video/v3/studio-equipment.mp4",
-    "duration": 13.4,
-    "ended": true,
-    "error": null
-   },
-   {
-    "slide": 29,
-    "src": "assets/video/v3/ai-tutor-monitoring-safe.mp4",
-    "duration": 33.368007,
-    "ended": true,
-    "error": null
-   }
+  "notes": "34 unique concise notes; exact speaker_notes/data-notes equality; no technical text. research/slide-specific-qa/notes-audit.json",
+  "qr": "Official exact URL decoded from actual1440 and1920 slide screenshots; research/slide-specific-qa/qr-final.json",
+  "playback": {
+    "evidence": "research/slide-specific-qa/playback.json",
+    "html_sha256": "dd82358a7a99a8f0e9528c1ff6562b2478fda54cb9483666ec807412542901b0",
+    "new_clips_ended": 7,
+    "hidden_video_playing": 0,
+    "full_speed_no_seek": true
+  },
+  "remote": {
+    "real_public_signaling_e2e_passed": 16,
+    "protocol_passed": 7,
+    "fullscreen_modal_passed": 5,
+    "evidence": [
+      "research/remote-control.md",
+      "research/remote-control-qa/results.json",
+      "research/remote-control-qa/protocol-results.json",
+      "research/remote-control-qa/fullscreen-results.json"
+    ],
+    "scope": "Two independent Chromium contexts on one machine/network; integrated real index tested by remote specialist; physical tablet and different NAT untested; no TURN",
+    "module_hashes_match": true
+  },
+  "limitations": [
+    "Physical projector, iOS Safari, tablet hardware and separate-network/NAT connectivity untested.",
+    "No deployment/commit/push performed; coordinator review before publishing.",
+    "Architecture v0.2 is target behavior, not proof of deployed API integrations."
   ],
-  "autoplay_fallback": {
-   "poster": true,
-   "paused": true,
-   "button": "Смотреть"
+  "readme_unchanged": true,
+  "quality28": {
+    "automatic": "Three states repeat every30seconds,10seconds per state; full width method/profile pan vertically, no clicks",
+    "reduced_motion": "Three static large screens accessible by normal scrolling; no animation or three unreadable thumbnails",
+    "privacy": "Surnames masked, real numbers retained; full anonymized screens in gallery",
+    "evidence": "research/slide-specific-qa/quality-additional.json",
+    "real_time_states": [
+      2,
+      12,
+      18.8,
+      22,
+      28.8
+    ],
+    "reentry_restarts_first": true,
+    "mobile_remote_button_does_not_overlap_toolbar": true
+  },
+  "status": "Local integrated build ready for coordinator review",
+  "delivery": {
+    "files": 115,
+    "all_http_head_200": true,
+    "html_copies_byte_identical": true,
+    "manifest_hashes_verified": true,
+    "evidence": "research/slide-specific-qa/delivery.json"
   }
- },
- "final_composition": {
-  "sha256": "627b2abc2415e659a20c68d75a65b945569a4920802ac4d72b342a9c07c6470c",
-  "issues": {
-   "1920x1080": [],
-   "1440x900": [],
-   "390x844": [],
-   "360x800": []
-  }
- },
- "http_assets": {
-  "checked": 97,
-  "status_200": 97,
-  "missing": []
- },
- "limitations": [
-  "Local Chromium and Orca embedded browser only; no physical iOS or projector",
-  "Live Pages verification awaits Grok deployment SHA",
-  "AI architecture is a concept; interface examples do not validate all integrations or rating accuracy"
- ]
 }
