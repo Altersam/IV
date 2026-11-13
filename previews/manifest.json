@@ -1,5 +1,5 @@
 {
- "source": "research/claude-v2-qa 1920x1080",
+ "source": "research/fresh-content-qa 1920x1080",
  "slides": [
   "slide-01.jpg",
   "slide-02.jpg",
@@ -30,6 +30,10 @@
   "slide-27.jpg",
   "slide-28.jpg",
   "slide-29.jpg",
-  "slide-30.jpg"
+  "slide-30.jpg",
+  "slide-31.jpg",
+  "slide-32.jpg",
+  "slide-33.jpg",
+  "slide-34.jpg"
  ]
 }

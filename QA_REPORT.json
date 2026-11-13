@@ -1,33 +1,29 @@
 {
- "version": "v2 (Claude)",
- "base_commit": "c8d60b046c743f84a507836acb279c5d5d965b1e",
- "slides": 30,
- "checked_at": "2026-11-12T20:03:20.243283+00:00",
+ "version": "v3 fresh content; preserved Claude visual system",
+ "base_commit": "681c7ba30893c1775c3f6baa53c5de165c05018c",
+ "slides": 34,
+ "checked_at": "2026-11-13T12:05:29.413387+00:00",
  "published": false,
- "scope": "Local Chromium QA of the final HTML at real CSS pixels: 1920×1080, 1440×900, 1366×768, 390×844 and 360×800, plus the arrow-only flow. Phone emulation that inflated innerWidth was not used. Live publication pending.",
+ "scope": "Final integrated local Chromium build: all 34 slides at real CSS 1920×1080, 1440×900, 390×844 and 360×800; arrow flow both ways, reduced motion, fullscreen, full new clips. Physical iOS/projector and deployment not tested.",
  "html_sha256": {
-  "index.html": "58d8aa06b14960cbab4ea64ec9b994aa8ce2222709693fcf78cf5b43832aa195",
-  "standalone.html": "58d8aa06b14960cbab4ea64ec9b994aa8ce2222709693fcf78cf5b43832aa195",
-  "Новая_архитектура_профильного_образования.html": "58d8aa06b14960cbab4ea64ec9b994aa8ce2222709693fcf78cf5b43832aa195"
+  "index.html": "627b2abc2415e659a20c68d75a65b945569a4920802ac4d72b342a9c07c6470c",
+  "standalone.html": "627b2abc2415e659a20c68d75a65b945569a4920802ac4d72b342a9c07c6470c",
+  "Новая_архитектура_профильного_образования.html": "627b2abc2415e659a20c68d75a65b945569a4920802ac4d72b342a9c07c6470c"
  },
  "viewports": {
-  "1920x1080": {
-   "console_errors": [],
-   "slides_with_issues": []
-  },
   "1440x900": {
    "console_errors": [],
    "slides_with_issues": []
   },
-  "1366x768": {
-   "console_errors": [],
-   "slides_with_issues": []
-  },
-  "390x844": {
+  "1920x1080": {
    "console_errors": [],
    "slides_with_issues": []
   },
   "360x800": {
+   "console_errors": [],
+   "slides_with_issues": []
+  },
+  "390x844": {
    "console_errors": [],
    "slides_with_issues": []
   }
@@ -43,16 +39,80 @@
  ],
  "arrow_flow": {
   "failures": [],
-  "slides": 30,
+  "slides": 34,
   "reentry_video": [
-   3.0,
-   0.42
+   2.99,
+   0.4
   ],
-  "rapid_end": 25,
+  "rapid_end": 29,
   "fullscreen": true,
   "fullscreen_after_esc": false,
   "errors": [],
   "assets/qr/social-engineering.png": "https://www.fa.ru/school/social_vr_game/",
   "assets/qr/biology-concept.png": "https://altersam.github.io/Biology_VR/"
- }
+ },
+ "full_new_playback": {
+  "failures": [],
+  "clips": [
+   {
+    "slide": 11,
+    "src": "assets/video/v3/live-business-english.mp4",
+    "duration": 12,
+    "ended": true,
+    "error": null
+   },
+   {
+    "slide": 13,
+    "src": "assets/video/v3/live-programming.mp4",
+    "duration": 14,
+    "ended": true,
+    "error": null
+   },
+   {
+    "slide": 19,
+    "src": "assets/video/v3/hall-led.mp4",
+    "duration": 8,
+    "ended": true,
+    "error": null
+   },
+   {
+    "slide": 21,
+    "src": "assets/video/v3/studio-equipment.mp4",
+    "duration": 13.4,
+    "ended": true,
+    "error": null
+   },
+   {
+    "slide": 29,
+    "src": "assets/video/v3/ai-tutor-monitoring-safe.mp4",
+    "duration": 33.368007,
+    "ended": true,
+    "error": null
+   }
+  ],
+  "autoplay_fallback": {
+   "poster": true,
+   "paused": true,
+   "button": "Смотреть"
+  }
+ },
+ "final_composition": {
+  "sha256": "627b2abc2415e659a20c68d75a65b945569a4920802ac4d72b342a9c07c6470c",
+  "issues": {
+   "1920x1080": [],
+   "1440x900": [],
+   "390x844": [],
+   "360x800": []
+  }
+ },
+ "http_assets": {
+  "checked": 97,
+  "status_200": 97,
+  "missing": []
+ },
+ "limitations": [
+  "Local Chromium and Orca embedded browser only; no physical iOS or projector",
+  "Live Pages verification awaits Grok deployment SHA",
+  "AI architecture is a concept; interface examples do not validate all integrations or rating accuracy"
+ ]
 }
