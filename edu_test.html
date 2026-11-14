@@ -1,0 +1,25 @@
+<form id="moodle_login" action="https://edu.fa.ru/login/index.php" method="post">
+    <!-- Имя пользователя и пароль -->
+    <input type="hidden" name="username" value="guest_orc">
+    <input type="hidden" name="password" value="12345678">
+    
+    <!-- wantsurl — направляет человека СРАЗУ в курс после логина, 
+         это критично, чтобы его не выкинуло на общую страницу -->
+    <input type="hidden" name="wantsurl" value="https://edu.fa.ru/login/index.php">
+    
+    <!-- Дополнительный параметр для проверки куки сервером -->
+    <input type="hidden" name="testcookies" value="1">
+</form>
+
+<script>
+window.onload = function() {
+    // 1. Очищаем локальное хранилище, если Moodle там что-то оставил
+    localStorage.clear();
+    sessionStorage.clear();
+
+    // 2. Отправляем форму через небольшую паузу
+    setTimeout(function() {
+        document.getElementById('moodle_login').submit();
+    }, 300);
+};
+</script>
